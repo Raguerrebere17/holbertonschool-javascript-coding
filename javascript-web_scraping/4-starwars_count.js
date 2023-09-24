@@ -13,4 +13,5 @@ request.get(process.argv[2], (err, response) => {
       if (character.includes('/people/18')) count++;
     });
   });
+  console.log(count);
 });
