@@ -7,6 +7,6 @@ request.get(url, (err, response) => {
     console.log(err);
     return;
   }
-const data = JSON.parse(response.body);
-console.log(data.title);
+  const data = JSON.parse(response.body);
+  console.log(data.title);
 });
